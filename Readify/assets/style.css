@@ -1,0 +1,380 @@
+
+body {
+  background-color: #E5B92E;
+  margin: auto;
+  padding:auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 27px;
+}
+
+title{
+  font-size: 40px;
+}
+
+
+/*e-mail introduction*/
+input[type="text"]{
+  outline: none;
+  padding: 2%;
+  display: block;
+  width: 90%;
+  font-size: 40px;
+  border-radius: 3px;
+  border: 1px solid #909497;
+  margin: 2% auto;
+}
+/*password introduction*/
+input[type="password"]{
+  outline: none;
+  padding: 2%;
+  display: block;
+  width: 90%;
+  font-size: 40px;
+  border-radius: 3px;
+  border: 1px solid #909497;
+  margin: 2% auto;
+}
+
+/*entrar button*/
+input[type="submit"] {
+  padding: 3%;
+  color: #fff;
+  background: #0098cb;
+  width: 32%;
+  font-size: 40px;
+  margin: 2% auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+
+/*Esto sirve para darle forma al boton de buscar*/
+
+
+button[type="submit"] {
+  padding: 1%;
+  color: #fff;
+  background: #0098cb;
+  width: 4%;
+  margin: 0%;
+  margin-left: 1%;
+  margin-top: 0%;
+  border: 0;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+
+/*Aqui tenim el buscador i li donem amplada i allargada*/
+input[type="search"] {
+ height: auto;
+ width: 270px;
+}
+
+
+
+header {
+  padding: 3px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/*Aqui tenim un div que tenim per posicionar el logo*/
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+
+/*Readify image*/
+.logo-image {
+  background-image: url('../image.png');
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+
+
+/*Esto sirve para posicionar bien la imagen del perfil de anonimo*/
+
+
+/*Aqui li donem lloc i amplada a la imatge d'anonim*/
+.user-anon img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.user-anon{
+margin-left: 50%;
+}
+
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  justify-content: left;
+ 
+}
+
+
+.titol{
+  font-size: 50px;
+}
+
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.top10 {
+text-align: left;
+margin-left: 2%;
+margin-top: 2%;
+}
+
+
+
+ /*Iniciar sesión container, li donem forma a la caixa d'iniciar sessió*/
+.login-box {
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 500px;
+  margin: 0.2% auto;
+  padding: 2%;
+}
+
+
+/*registro container, li donem forma a la caixa de registre*/
+.login-box1 {
+background-color: #ffffff;
+border: 1px solid #000;
+border-radius: 5px;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+width: 85%;
+margin: 0.6% auto;
+padding: 0.6%;
+}
+
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+
+
+/*Li donem característiques al botò de registrar-se i d'iniciar sessió*/
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: 1px solid #000;
+}
+
+
+/*Aqui li donem forma i establim un ordre a la barra d'apartats*/
+.navbar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-right: 7%;
+}
+
+/*Aqui tenim els apartats de la barra on els distribuim dins del navbar i li donem un color*/
+.navbar-links {
+  display: flex;
+  background-color: #333;
+}
+
+
+/*Aqui tenim tots els apartats amb cada un d'ells i els hi donem un espai entre ells, una font de lletra etc...*/
+.navbar-links a {
+  padding: 1%;
+  margin-right: 120px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+/* Aqui fem un media query perquè s'adapti a la posició de la pantalla*/
+@media (max-width: 1450px) {
+  .navbar {
+   margin-right: 3%;
+  }
+
+  .navbar-links {
+    display: flex;
+    background-color: #333;
+  }
+
+  .navbar-links a {
+    padding: 0%;
+    margin-right: 4%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+}
+
+/*Aqui li donem un format nou quan es un format de mòvil, convertim els apartats horitzontals a verticals i posem en ordre les imatges i al botò*/
+@media (max-width: 880px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+  }
+
+  .navbar-links a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .user-anon {
+    width: 100%;
+    text-align: right;
+    margin-left: 30%;
+  }
+
+  .user-anon img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-right: 0px;
+    margin-left: 150px;
+    margin-top: -115%;
+  }
+
+  .buttonLogOut {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    background-color: #E52E2E;
+    border: 1px solid #000;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+}
+
+.buttonLogOut{
+  /*display: inline-block;*/
+  margin-right: 0px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  color: #fff;
+  background-color: #E52E2E;
+  border: 1px solid #000;
+}
+
+
+/*Aqui tenim els divs del perfil i els hi donem una mida, un color i caixes per tal de que quedi tot dins de quadres*/
+.profile {
+  max-width: 700px;
+  max-height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #909497;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
+.junt{
+  display: flex;
+  margin-left: 40%;
+}
+
+
+
+/*Propietats de les imatges i textos del perfil*/
+
+.profile h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.profile-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-info label {
+  font-weight: bold;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
