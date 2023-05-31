@@ -35,10 +35,10 @@ if ($conn->connect_error) {
 $sql = "SELECT * FROM libros WHERE id = $id";
 $result = $conn->query($sql);
 
-$book = false; // Variable para verificar si el usuario ha comprado el libro
+$book = false; // Variable per verificar si l'usuari ha comprat el llibre
 
 if (isset($_SESSION['user_id'])) {
-  // Verificar si el usuario ha comprado el libro
+  // Verificar si l'usuari ha comprat el llibre
   $user_id = $_SESSION['user_id'];
   $stmt = $conn->prepare('SELECT * FROM mis_libros WHERE id_usuario = ? AND id_libro = ?');
   $stmt->bind_param('ii', $user_id, $id);
