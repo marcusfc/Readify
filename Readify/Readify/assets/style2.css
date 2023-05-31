@@ -1,0 +1,390 @@
+body {
+    /*background-image: url('../fondo.jpeg');*/
+    margin: auto;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: url('../images/fondolectura.jpg');
+    background-attachment: fixed;
+  }
+  
+
+  html, body {
+    height: 100%;
+  }
+ 
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  /* e-mail introduction */
+  input[type="text"] {
+    outline: none;
+    padding: 2%;
+    display: block;
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #909497;
+    margin: 2% auto;
+  }
+  
+  
+  
+  /* password introduction */
+  input[type="password"] {
+    outline: none;
+    padding: 2%;
+    display: block;
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #909497;
+    margin: 2% auto;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: 1px solid #000;
+  }
+
+  .buttonllegir {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: 1px solid #000;
+  }
+  
+  
+  
+  
+  /* entrar button */
+  input[type="submit"] {
+    padding: 3%;
+    color: #fff;
+    background: #0098cb;
+    width: 32%;
+    margin: 2% auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .espaisinici {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-anon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .user-anon2 img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .user-anon {
+      width: 100%;
+      margin-right: 60px;
+      margin-bottom: 9px;
+    }
+
+    .user-anon2 {
+      width: 100%;
+      margin-right: 60px;
+      margin-bottom: 13px;
+    }
+  
+  
+
+
+.buttonLogOut{
+  /*display: inline-block;*/
+  margin-right: -30px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #fff;
+  background-color: #E52E2E;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+  
+  
+  input[type="submit"]:hover {
+    background-color: #00b8eb;
+  }
+  
+  
+  /*inici*/
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  [class*="col-"] {
+    float: left;
+    padding: 5px;
+  }
+  
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #9AD9CA;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  
+  .menu li:hover {
+    background-color: #87C2B4;
+  }
+  
+  
+  .aside {
+    background-color: #000;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  
+  #reader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  #reader {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  
+  .result {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .result button {
+    display: none;
+  }
+  
+  
+  #detail-button {
+    background-color: green;
+    color: #fff;
+  }
+  
+  
+  
+  .footer {
+    background-color: #9AD9CA;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  
+
+  
+
+  
+  
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+ 
+  /*qr*/
+ 
+  .bg{
+    height: 30%;
+    background-position: center;
+   
+   
+  }
+  .card{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 4%;
+    margin-left: 1%;
+  }
+
+
+  .rotate-warning {
+    display: none;
+  }
+  /*fin qr*/
+
+  .details {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  
+  
+
+  .config {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+  }
+  
+  .config input[type="checkbox"] {
+    margin-left: 5%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ocultar contenido que exceda el contenedor */
+  }
+  
+  .box {
+    width: 350px;
+    height: 430px;
+    margin-top: 5%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: auto; /* Agregar barra de desplazamiento vertical */
+    max-height: 100%; /* Establecer altura máxima para limitar el tamaño */
+    text-align: justify; /* Justificar el texto */
+  }
+
+.llegirllibres{
+  display: space-between;
+  margin-top: 10%;
+}
+
+.iconmislibros{
+  width: 10%;
+}
+
+.imagen{
+  width:204px;
+  height:300px;
+}
+
+/*
+
+  @media only screen and (min-width: 600px) {
+    
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  */
+  
+  
+  
